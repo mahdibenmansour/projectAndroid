@@ -1,0 +1,32 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:height="50dp"
+            android:gravity="center"
+            android:text="TextView" />
+<!--        el text view eli bch yji feha el imc wel categorie -->
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Button" />
+<!--        amalt button kahla centered w lounha akhel-->
+    </ LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
